@@ -3,7 +3,7 @@
 
 
 
-<a href="https://hack36.com"> <img src="https://i.postimg.cc/RFFWF4vg/built-at-hack.jpg" height=24px style="padding-left=10px"> </a>
+
 [![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)](https://code-fury-omega.vercel.app/)
 
 
