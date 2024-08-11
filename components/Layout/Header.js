@@ -1,9 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
-// Import react scroll
-// import { Link as Link } from "react-scroll";
 import ButtonOutline from "../misc/ButtonOutline.";
-import LogoVPN from "../../public/assets/logo.png";
+import LogoVPN from "../../public/assets/logo.jpeg";
 import Image from "next/image";
 
 const Header = () => {
@@ -79,9 +77,7 @@ const Header = () => {
                   ? " text-red-500 animation-active "
                   : " text-black hover:text-red-500 ")
               }
-              
             >
-
               <span className="hover:text-red-600 cursor-pointer text-base">
                 AI Chat
               </span>
@@ -99,7 +95,19 @@ const Header = () => {
                 HelpForm
               </span>
             </Link>
-            
+            <Link
+              href="/about"
+              className={
+                "px-4 py-2 mx-2 cursor-pointer animation-hover inline-block relative" +
+                (activeLink === "about"
+                  ? " text-red-500 animation-active "
+                  : " text-black hover:text-red-500 ")
+              }
+            >
+              <span className="hover:text-red-600 cursor-pointer text-base">
+                About Us
+              </span>
+            </Link>
           </ul>
           <div className="col-start-10 col-end-12 font-medium flex justify-end items-center">
             <Link href="/auth/signin">
@@ -108,15 +116,12 @@ const Header = () => {
               </a>
             </Link>
             <Link href={"/auth/signup"}>
-              <ButtonOutline>
-                <Link href={"/auth/signup"}>Sign Up</Link>
-              </ButtonOutline>
+              <ButtonOutline>Sign Up</ButtonOutline>
             </Link>
           </div>
         </nav>
       </header>
       {/* Mobile Navigation */}
-
       <nav className="fixed lg:hidden py-3 bottom-0 left-0 right-0 z-20 px-4 sm:px-8 shadow-t ">
         <div className="bg-white sm:px-3">
           <ul className="flex w-full justify-between items-center text-black">
@@ -175,6 +180,19 @@ const Header = () => {
             >
               <span className="hover:text-red-600 cursor-pointer text-sm">
                 HelpForm
+              </span>
+            </Link>
+            <Link
+              href="/about"
+              className={
+                "px-4 py-2 mx-2 cursor-pointer animation-hover inline-block relative" +
+                (activeLink === "about"
+                  ? " text-red-500 animation-active "
+                  : " text-black hover:text-red-500 ")
+              }
+            >
+              <span className="hover:text-red-600 cursor-pointer text-sm">
+                About Us
               </span>
             </Link>
           </ul>
