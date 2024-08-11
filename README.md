@@ -9,8 +9,7 @@
 
 <div align="center">
   <a id="top" href="https://code-fury-omega.vercel.app/" target="blank">
-    <img src="https://user-images.githubusercontent.com/86917304/227752911-f63d943f-2985-4abb-982c-f48d63c81911.png" width="100px" alt="">
-  </a>
+    
 
   <h3 align="center">Help-Hive</h3>
 
