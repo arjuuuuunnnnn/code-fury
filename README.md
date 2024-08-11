@@ -134,16 +134,4 @@ This is feature which give the incredible power to the authorties to aware and s
   7) Stripe
   
 
-## Contributors:
 
-Team Name - Hackit
-
-Leader  - [Pranshu Jain](https://github.com/Pranshu321)
-
-Member 2 - [Mohammad Sami](https://github.com/MSamiDev)
-
-Member 3 - [Sreetama Ghosh Hazra](https://github.com/Sreetama2001)
-
-
-### Made at:
-<a href="https://hack36.com"> <img src="https://i.postimg.cc/RFFWF4vg/built-at-hack.jpg" height=24px> </a>
